@@ -1,0 +1,37 @@
+.relative{
+    top:40px;
+}
+.page{
+    height: 100vh;
+}
+.sticky{
+    position: sticky;
+    top: 30px;
+}
+.flex-container{
+    display: flex;
+    background-color: rgb(62, 105, 196);
+    height: 50vh;
+    border: 3px solid brown;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.flex-container div {
+    background-color: bisque;
+    height: 30vh;
+    width: 100px;
+    border: 3px solid brown;
+}
+.two{
+    /*flex-grow: 2;*/
+    flex-shrink: 2;
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    background-color: aquamarine;
+    height: 100vh;
+    align-items: center;
+}
