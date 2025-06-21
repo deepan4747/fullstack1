@@ -12,6 +12,7 @@ import Navbar from './components/Navbar'
 import State from './hooks/State'
 import Form from './hooks/Form'
 import Effects from './hooks/Effects'
+import Reducer from './hooks/Reducer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -26,6 +27,7 @@ function App() {
        <Route path='/state' element={<State/>}/>
        <Route path='/form' element={<Form/>}/>
        <Route path='/effect' element={<Effects/>}/>
+       <Route path='/reducer' element={<Reducer />} />
     </Routes>
     {/* <Welcome name='Deepan' country='India'/> */}
     {/* <Skills skill={['React','Node','Express','MongoDb']}/>   */}
